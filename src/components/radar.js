@@ -13,8 +13,8 @@ const MyResponsiveRadar = ({ data, keys, indexBy }) => (
     dotSize={5}
     dotColor={{ from: "color", modifiers: [] }}
     dotBorderWidth={2}
-    colors={"black"}
-    fillOpacity={0.7}
+    colors={{ scheme: "category10" }}
+    fillOpacity={0.6}
     borderWidth={0}
     blendMode="multiply"
     motionConfig="wobbly"
