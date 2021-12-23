@@ -1,15 +1,26 @@
 import "./App.css";
 import ResponsiveRadar from "./components/radar";
 import dataRadar from "./data/dataRadar";
+import { Container, Col, Row } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
-      <h1>Evaluación de Rendimiento Deportivo</h1>
-      <img src={require("./legends.jpeg")} width={"40%"} height={"50%"} />
-      <div className="containerRadar">
-        <ResponsiveRadar data={dataRadar} keys={["results"]} indexBy={"item"} />
-      </div>
+      <Container>
+        <Col>
+          <h1>Evaluación de Rendimiento Deportivo</h1>
+          <Row>
+            <img src={require("./legends.jpeg")} width={"40%"} height={"50%"} />
+          </Row>
+          <Row>
+            <ResponsiveRadar
+              data={dataRadar}
+              keys={["results"]}
+              indexBy={"item"}
+            />
+          </Row>
+        </Col>
+      </Container>
     </div>
   );
 }

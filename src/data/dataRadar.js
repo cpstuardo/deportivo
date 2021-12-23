@@ -17,11 +17,11 @@ const dataRadar = [
   },
   {
     item: "Height",
-    results: 10,
+    results: 73,
   },
   {
     item: "Power",
-    results: 10,
+    results: 56,
   },
   {
     item: "Contact time",
