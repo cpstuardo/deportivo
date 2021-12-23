@@ -8,7 +8,7 @@ const MyResponsiveRadar = ({ data, keys, indexBy }) => (
       keys={keys}
       indexBy={indexBy}
       maxValue={100}
-      width={550}
+      width={700}
       height={550}
       valueFormat=">-.2f"
       margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
