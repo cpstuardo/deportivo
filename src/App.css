@@ -6,14 +6,8 @@
 
 .containerRadar {
   height: 77vh;
-  width: 100vw;
+  width: 50vw;
   margin: auto;
-  background-image: url("../public/radar.jpeg");
-  background-size: cover;
-  background-position: 53%;
-  background-size: 81%;
-  background-position-y: 124%;
-  background-repeat: no-repeat;
 }
 
 h1 {

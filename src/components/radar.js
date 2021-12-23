@@ -7,6 +7,7 @@ const MyResponsiveRadar = ({ data, keys, indexBy }) => (
       data={data}
       keys={keys}
       indexBy={indexBy}
+      maxValue={100}
       valueFormat=">-.2f"
       margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
       borderColor={{ from: "color" }}
