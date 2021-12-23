@@ -10,11 +10,12 @@
   margin: auto;
   background-image: url("../public/radar.jpeg");
   background-size: cover;
-  background-position: 53%;
-  background-size: 81%;
-  background-position-y: 124%;
+  background-position: 1.4cm;
+  background-size: 14cm;
+  background-position-y: 2cm;
   background-repeat: no-repeat;
 }
+
 h1 {
   font-size: 3vw;
 }

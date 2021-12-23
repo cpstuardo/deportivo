@@ -1,13 +1,15 @@
-import { ResponsiveRadar } from "@nivo/radar";
+import { Radar } from "@nivo/radar";
 import "../App.css";
 
 const MyResponsiveRadar = ({ data, keys, indexBy }) => (
   <div className="containerRadar">
-    <ResponsiveRadar
+    <Radar
       data={data}
       keys={keys}
       indexBy={indexBy}
       maxValue={100}
+      width={550}
+      height={550}
       valueFormat=">-.2f"
       margin={{ top: 70, right: 80, bottom: 40, left: 80 }}
       borderColor={{ from: "color" }}
