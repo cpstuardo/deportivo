@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       <h1>Evaluación de Rendimiento Deportivo</h1>
+      <img src={require("./legends.jpeg")} width={"30%"} height={"40%"} />
       <div className="containerRadar">
         <ResponsiveRadar data={dataRadar} keys={["results"]} indexBy={"item"} />
       </div>
-      <img src={require("./legends.jpeg")} width={400} height={170} />
     </div>
   );
 }

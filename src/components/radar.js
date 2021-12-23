@@ -10,10 +10,12 @@ const MyResponsiveRadar = ({ data, keys, indexBy }) => (
     borderColor={{ from: "color" }}
     gridLabelOffset={15}
     gridLevels={10}
-    dotSize={10}
-    dotColor={{ theme: "background" }}
+    dotSize={5}
+    dotColor={{ from: "color", modifiers: [] }}
     dotBorderWidth={2}
-    colors={{ scheme: "category10" }}
+    colors={"black"}
+    fillOpacity={0.7}
+    borderWidth={0}
     blendMode="multiply"
     motionConfig="wobbly"
     legends={[
