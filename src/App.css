@@ -2,37 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.containerRadar {
+  height: 77vh;
+  width: 100vh;
+  margin: auto;
+  background-image: url("../public/radar.jpeg");
+  background-size: cover;
+  background-position: 1.7cm;
+  background-size: 13.4cm;
+  background-position-y: 1.35cm;
+  background-repeat: no-repeat;
 }
