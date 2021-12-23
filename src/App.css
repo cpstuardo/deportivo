@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   align-items: center;
+  margin: auto;
 }
 
 .containerRadar {
@@ -13,4 +14,8 @@
   background-size: 81%;
   background-position-y: 124%;
   background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 3vw;
 }
