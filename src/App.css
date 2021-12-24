@@ -5,13 +5,13 @@
 }
 
 .containerRadar {
-  width: 16cm;
+  width: 19cm;
   margin: auto;
   background-image: url("../public/radar.jpeg");
   background-size: cover;
-  background-position: 1.5cm;
+  background-position: 1.7cm;
   background-size: 15.8cm;
-  background-position-y: 1.3cm;
+  background-position-y: 1.25cm;
   background-repeat: no-repeat;
 }
 
@@ -20,8 +20,8 @@
   margin: auto;
   background-image: url("../public/radar.jpeg");
   background-size: cover;
-  background-position: 2.65cm;
-  background-size: 6.8cm;
+  background-position: 3.15cm;
+  background-size: 5.8cm;
   background-position-y: 1.6cm;
   background-repeat: no-repeat;
 }
