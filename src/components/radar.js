@@ -1,7 +1,15 @@
 import { Radar } from "@nivo/radar";
 import "../App.css";
 
-const MyResponsiveRadar = ({ data, keys, indexBy, height, width, css }) => (
+const MyResponsiveRadar = ({
+  data,
+  keys,
+  indexBy,
+  height,
+  width,
+  css,
+  fontSize,
+}) => (
   <div className={css}>
     <Radar
       data={data}
@@ -23,6 +31,9 @@ const MyResponsiveRadar = ({ data, keys, indexBy, height, width, css }) => (
       borderWidth={0}
       blendMode="multiply"
       motionConfig="wobbly"
+      theme={{
+        fontSize: fontSize,
+      }}
       legends={[
         {
           anchor: "top-left",

@@ -29,6 +29,7 @@ function App() {
           height={550}
           width={700}
           css={"containerRadar"}
+          fontSize={"10px"}
         />
       </div>
     );
@@ -44,6 +45,7 @@ function App() {
           height={270}
           width={400}
           css={"containerRadarMobile"}
+          fontSize={"8px"}
         />
       </div>
     );

@@ -20,9 +20,9 @@
   margin-left: 0.2cm;
   background-image: url("../public/radar.jpeg");
   background-size: cover;
-  background-position: 2.45cm;
-  background-size: 5.8cm;
-  background-position-y: 1.6cm;
+  background-position: 2.5cm;
+  background-size: 5.7cm;
+  background-position-y: 1.65cm;
   background-repeat: no-repeat;
 }
 
@@ -32,6 +32,4 @@ h1 {
 
 h2 {
   font-size: 0.4cm;
-}
-@media screen {
 }
