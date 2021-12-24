@@ -5,7 +5,7 @@
 }
 
 .containerRadar {
-  width: 15cm;
+  width: 16cm;
   margin: auto;
   background-image: url("../public/radar.jpeg");
   background-size: cover;
@@ -15,6 +15,20 @@
   background-repeat: no-repeat;
 }
 
+.containerRadarMobile {
+  width: 12cm;
+  margin: auto;
+  background-image: url("../public/radar.jpeg");
+  background-size: cover;
+  background-position: 2.65cm;
+  background-size: 6.8cm;
+  background-position-y: 1.6cm;
+  background-repeat: no-repeat;
+}
+
 h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
+}
+
+@media screen {
 }
