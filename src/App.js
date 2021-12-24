@@ -17,7 +17,7 @@ function App() {
     setWindowWidth(width);
   };
 
-  if (width > 500) {
+  if (width > 550) {
     return (
       <div className="App">
         <h1>Evaluación de Rendimiento Deportivo</h1>
@@ -28,7 +28,7 @@ function App() {
           indexBy={"item"}
           height={550}
           width={700}
-          div={"containerRadar"}
+          css={"containerRadar"}
         />
       </div>
     );
@@ -43,7 +43,7 @@ function App() {
           indexBy={"item"}
           height={270}
           width={400}
-          div={"containerRadarMobile"}
+          css={"containerRadarMobile"}
         />
       </div>
     );

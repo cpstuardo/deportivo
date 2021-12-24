@@ -17,7 +17,7 @@
 
 .containerRadarMobile {
   width: 12cm;
-  margin-left: -0.6cm;
+  margin: auto;
   background-image: url("../public/radar.jpeg");
   background-size: cover;
   background-position: 3.15cm;

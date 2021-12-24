@@ -1,8 +1,8 @@
 import { Radar } from "@nivo/radar";
 import "../App.css";
 
-const MyResponsiveRadar = ({ data, keys, indexBy, height, width, div }) => (
-  <div className={div}>
+const MyResponsiveRadar = ({ data, keys, indexBy, height, width, css }) => (
+  <div className={css}>
     <Radar
       data={data}
       keys={keys}
