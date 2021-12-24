@@ -27,8 +27,11 @@
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
+h2 {
+  font-size: 0.4cm;
+}
 @media screen {
 }

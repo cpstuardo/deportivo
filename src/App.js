@@ -35,14 +35,14 @@ function App() {
   } else {
     return (
       <div className="App">
-        <h1>Evaluación de Rendimiento Deportivo</h1>
+        <h2>Evaluación de Rendimiento Deportivo</h2>
         <img src={require("./legends.jpeg")} height={"100vh"} />
         <ResponsiveRadar
           data={dataRadar}
           keys={["results"]}
           indexBy={"item"}
           height={270}
-          width={420}
+          width={400}
           div={"containerRadarMobile"}
         />
       </div>
