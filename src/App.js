@@ -36,7 +36,7 @@ function App() {
     return (
       <div className="App">
         <h1>Evaluación de Rendimiento Deportivo</h1>
-        <img src={require("./legends.jpeg")} height={"110vh"} />
+        <img src={require("./legends.jpeg")} height={"100vh"} />
         <ResponsiveRadar
           data={dataRadar}
           keys={["results"]}
