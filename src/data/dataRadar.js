@@ -12,7 +12,7 @@ const dataRadar = [
     results: 50,
   },
   {
-    item: "Symmetry R/L Index",
+    item: "Symmetry R/L",
     results: 90,
   },
   {
@@ -52,7 +52,7 @@ const dataRadar = [
     results: 10,
   },
   {
-    item: "Total time (reaction)",
+    item: "Total time",
     results: 50,
   },
   {

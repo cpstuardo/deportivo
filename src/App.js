@@ -21,13 +21,13 @@ function App() {
     return (
       <div className="App">
         <h1>Evaluación de Rendimiento Deportivo</h1>
-        <img src={require("./legends.png")} height={"100vh"} />
+        <img src={require("./legends.png")} height={"95vh"} />
         <ResponsiveRadar
           data={dataRadar}
           keys={["results"]}
           indexBy={"item"}
-          height={550}
-          width={700}
+          height={500}
+          width={650}
           css={"containerRadar"}
           fontSize={"13px"}
         />

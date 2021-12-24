@@ -11,15 +11,15 @@
   margin: auto;
   background-image: url("../public/radar.jpeg");
   background-size: cover;
-  background-position: 1.7cm;
-  background-size: 15.8cm;
-  background-position-y: 1.25cm;
+  background-position: 2.6cm;
+  background-size: 14cm;
+  background-position-y: 1.3cm;
   background-repeat: no-repeat;
 }
 
 .containerRadarMobile {
   width: 7.5cm;
-  margin-left: 0;
+  margin-left: 0cm;
   background-image: url("../public/radar.jpeg");
   background-size: cover;
   background-position: 2.5cm;
@@ -29,7 +29,7 @@
 }
 
 h1 {
-  font-size: 2.5vw;
+  font-size: 0.6cm;
   font-family: "Montserrat";
   font-weight: 700;
 }
