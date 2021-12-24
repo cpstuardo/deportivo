@@ -33,7 +33,8 @@ const MyResponsiveRadar = ({
       motionConfig="wobbly"
       theme={{
         fontSize: fontSize,
-        textColor: "#555753",
+        fontFamily: "Montserrat",
+        textColor: "#000000",
       }}
       legends={[
         {

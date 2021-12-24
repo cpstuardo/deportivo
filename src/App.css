@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,bold,italic&subset=latin,latin-ext");
+
 .App {
   text-align: center;
   align-items: center;
@@ -28,8 +30,12 @@
 
 h1 {
   font-size: 2.5vw;
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 
 h2 {
   font-size: 0.4cm;
+  font-family: "Montserrat";
+  font-weight: 700;
 }

@@ -21,7 +21,7 @@ function App() {
     return (
       <div className="App">
         <h1>Evaluación de Rendimiento Deportivo</h1>
-        <img src={require("./legends.jpeg")} height={"130vh"} />
+        <img src={require("./legends.png")} height={"100vh"} />
         <ResponsiveRadar
           data={dataRadar}
           keys={["results"]}
@@ -29,7 +29,7 @@ function App() {
           height={550}
           width={700}
           css={"containerRadar"}
-          fontSize={"10px"}
+          fontSize={"13px"}
         />
       </div>
     );
@@ -37,7 +37,7 @@ function App() {
     return (
       <div className="App">
         <h2>Evaluación de Rendimiento Deportivo</h2>
-        <img src={require("./legends2.jpeg")} height={"110vh"} />
+        <img src={require("./legends2.png")} height={"150vh"} />
         <ResponsiveRadar
           data={dataRadar}
           keys={["results"]}
@@ -45,7 +45,7 @@ function App() {
           height={270}
           width={400}
           css={"containerRadarMobile"}
-          fontSize={"8px"}
+          fontSize={"9px"}
         />
       </div>
     );
