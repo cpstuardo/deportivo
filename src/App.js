@@ -45,7 +45,7 @@ function App() {
           height={270}
           width={400}
           css={"containerRadarMobile"}
-          fontSize={"9px"}
+          fontSize={"8.5px"}
         />
       </div>
     );
