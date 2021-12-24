@@ -41,8 +41,8 @@ function App() {
           data={dataRadar}
           keys={["results"]}
           indexBy={"item"}
-          height={270}
-          width={400}
+          height={400}
+          width={300}
           css={"containerRadarMobile"}
         />
       </div>

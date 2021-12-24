@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/deportivo/static/css/main.21fe4633.css",
-    "main.js": "/deportivo/static/js/main.ae984026.js",
+    "main.css": "/deportivo/static/css/main.1ea0d004.css",
+    "main.js": "/deportivo/static/js/main.c1af4f8e.js",
     "static/js/787.bc0b4409.chunk.js": "/deportivo/static/js/787.bc0b4409.chunk.js",
     "static/media/legends2.jpeg": "/deportivo/static/media/legends2.29a423d6621a7028b615.jpeg",
     "static/media/radar.jpeg": "/deportivo/static/media/radar.c68150423fe277d5285d.jpeg",
     "static/media/legends.jpeg": "/deportivo/static/media/legends.70647a72ede0a93bdc83.jpeg",
     "index.html": "/deportivo/index.html",
-    "main.21fe4633.css.map": "/deportivo/static/css/main.21fe4633.css.map",
-    "main.ae984026.js.map": "/deportivo/static/js/main.ae984026.js.map",
+    "main.1ea0d004.css.map": "/deportivo/static/css/main.1ea0d004.css.map",
+    "main.c1af4f8e.js.map": "/deportivo/static/js/main.c1af4f8e.js.map",
     "787.bc0b4409.chunk.js.map": "/deportivo/static/js/787.bc0b4409.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21fe4633.css",
-    "static/js/main.ae984026.js"
+    "static/css/main.1ea0d004.css",
+    "static/js/main.c1af4f8e.js"
   ]
 }
